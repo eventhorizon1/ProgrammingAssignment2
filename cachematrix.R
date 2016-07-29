@@ -22,7 +22,6 @@ makeCacheMatrix <- function(x = matrix()) {
  
  #making the functions into a list format so that they can be used in cachesolve 
         list(set=set ,get=get  ,setinverse=setinverse,getinverse=getinverse)
-        
 }
 
 
