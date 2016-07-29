@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
         set<- function(y){
         x<<-y
         m<<-NULL
-         
+    
         }
  #function for getting the value of the matrix
         get<- function()x
@@ -21,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse<- function()m
  
  #making the functions into a list format so that they can be used in cachesolve 
-        list(set=set ,get=get, setinverse=setinverse , getinverse=getinverse)
+        list(set=set , get=get , setinverse=setinverse , getinverse=getinverse)
+         
 }
 
 
